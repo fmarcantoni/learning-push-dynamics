@@ -2,6 +2,8 @@
 
 Physics-based, neural-network, and hybrid physics-informed models for learning planar robotic push dynamics, with forward prediction and gradient-based push planning in PyTorch.
 
+**Portfolio page:** https://fmarcantoni-portfolio.vercel.app/projects/learning-push-dynamics
+
 ## Overview
 
 This project compares three modeling approaches for predicting the final pose of a rigid object after a planar push by a UR10 manipulator:
@@ -97,9 +99,11 @@ python main.py --checkpoint ./checkpoints/model_epoch_100.pth
 
 ## Report
 
-The full technical report is available here:
+The full technical report is available as a raw PDF download:
 
-[Open/download the PDF report](https://raw.githubusercontent.com/fmarcantoni/learning-push-dynamics/main/learning-push-dynamics-report.pdf)
+[Download the PDF report](https://raw.githubusercontent.com/fmarcantoni/learning-push-dynamics/main/learning-push-dynamics-report.pdf)
+
+Note: GitHub's inline PDF preview can be unreliable for this file, but the raw PDF downloads and opens correctly.
 
 ## Notes
 
