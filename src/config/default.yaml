@@ -1,0 +1,44 @@
+# Data configuration
+data:
+  base_path: "../data/genesis/"
+  train_x: "data_x_cracker_box.npy"
+  train_y: "data_y_cracker_box.npy"
+  batch_size: 32
+  shuffle: true
+
+# Model configuration
+model:
+  network:
+    type: "NNPhysicsModel"  # Options: NNModel, PhysicsModel, NNPhysicsModel
+    input_dim: 3
+    task_dim: 3
+    null_dim: 0
+    hidden_dims: [32, 64, 128, 128, 64, 32]
+  physics:
+    mass: 0.1
+    size: 0.1
+    inertia_factor: 0.0833
+    push_duration: 3.0
+    simulation_steps: 25
+  optimizer:
+    learning_rate: 0.001
+
+# Training configuration
+training:
+  num_epochs: 100
+  eval_frequency: 10
+  checkpoint_frequency: 20
+  checkpoint_dir: "checkpoints"
+
+# Physics sampling configuration
+physics_sampling:
+  num_samples: 50
+  max_iterations: 2000
+  learning_rate: 0.001
+  side_range: [-0.025, 0.025]
+  distance_range: [0.0, 0.3]
+
+# Device configuration
+device:
+  use_cuda: true
+  cuda_device: 0
