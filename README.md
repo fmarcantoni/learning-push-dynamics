@@ -53,7 +53,7 @@ The project implements:
 
 ```text
 .
-├── RBE577_Project2_Report.pdf
+├── learning-push-dynamics-report.pdf
 ├── data/
 │   └── genesis/
 │       ├── data_x_cracker_box.npy
@@ -99,7 +99,7 @@ python main.py --checkpoint ./checkpoints/model_epoch_100.pth
 
 The full technical report is available here:
 
-[Open the PDF report](https://raw.githubusercontent.com/fmarcantoni/learning-push-dynamics/main/RBE577_Project2_Report.pdf)
+[Open/download the PDF report](https://raw.githubusercontent.com/fmarcantoni/learning-push-dynamics/main/learning-push-dynamics-report.pdf)
 
 ## Notes
 
