@@ -99,7 +99,7 @@ python main.py --checkpoint ./checkpoints/model_epoch_100.pth
 
 The full technical report is available here:
 
-[RBE577_Project2_Report.pdf](RBE577_Project2_Report.pdf)
+[Open the PDF report](https://raw.githubusercontent.com/fmarcantoni/learning-push-dynamics/main/RBE577_Project2_Report.pdf)
 
 ## Notes
 
